@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Admin Panel</title>
+</head>
+
+<body>
+
+    <section id="main-container">
+        <nav id="sidebar">
+            <div class="side-container ">
+                <div class="logo-container">
+                    <a href="#"><i class='bx bxl-edge'></i><span>Admin</span></a>
+                </div>
+                <div class="button-container ">
+                    <a href="#"><i class='bx bxs-home'></i><span class="side-text-active">Home</span></a>
+                    <a href="#" ><i class='bx bxs-user'></i><span class="side-text-active">Users</span></a>
+                    <a href="#"><i class='bx bxs-shopping-bag'></i><span class="side-text-active">Orders</span></a>
+                    <a href="#" ><i class='bx bxs-chat'></i><span class="side-text-active">Messages</span></a>
+                    <a href="#"><i class='bx bxs-pie-chart-alt-2'></i><span class="side-text-active">Analytics</span></a>
+                </div>
+            </div>
+        </nav>
+
+        <section id="body-container">
+            <header id="header">
+                <div  class="header-container ">
+                    <div class="left-header-container">
+                        <i class='bx bx-menu collapseBtn'></i>
+                        <h1>Dashboard</h1>
+                    </div>
+                    <div class="user-info-container">
+                        <div><img src="./assets/images/admin-pp.png" alt="Admin Profile Picture"></div>
+                        <div>
+                            <h3>UserName Surname</h3>
+                            <p>Job Title</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="search-container">
+                    <div class="input-field">
+                        <input type="search">
+                        <button><i class="bx bx-search"></i></button>
+                    </div>
+                </div>
+                <div class="cards-container">
+                    <div class="data-card ">
+                        <div class="card-info">
+                            <h2 class="weather-for">54</h2>
+                            <p class="card-active-p">Customers</p>
+                        </div>
+                        <div class="card-icon">
+                            <i class="bx bx-group"></i>
+                        </div>
+                    </div>
+                    <div class="data-card ">
+                        <div class="card-info">
+                            <h2>175</h2>
+                            <p class="card-active-p">Stores</p>
+                        </div>
+                        <div class="card-icon">
+                            <i class="bx bx-store"></i>
+                        </div>
+                    </div>
+                    <div class="data-card ">
+                        <div class="card-info">
+                            <h2>124</h2>
+                            <p class="card-active-p">Orders</p>
+                        </div>
+                        <div class="card-icon">
+                            <i class="bx bx-shopping-bag"></i>
+                        </div>
+                    </div>
+                    <div class="data-card card-active">
+                        <div class="card-info">
+                            <h2>$7k</h2>
+                            <p class="card-active-p">Income</p>
+                        </div>
+                        <div class="card-icon">
+                            <i class="bx bxs-data"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="data-container">
+                    <div class="data-table">
+                        <div class="table-heading">
+                            <h1>Recent Orders</h1>
+                            <a href="#"><span>See All</span><i class="bx bxs-right-arrow-alt"></i></a>
+                        </div>
+                        <table class="main-data-table">
+                            <thead>
+                                <tr>
+                                    <th>Customer</th>
+                                    <th>Order</th>
+                                    <th>Email</th>
+                                    <th>Status</th>
+                                    <th>Operations</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Sevil Mirzayeva</td>
+                                    <td>Iphone XI</td>
+                                    <td>sevilmirzyeva010@gmail.com</td>
+                                    <td><i class="status pending-status"></i><span>pending...</span></td>
+                                    <td>
+                                        <div class="op-container">
+                                            <button class="btn-op"><i class="bx bx-message-square-edit"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-trash"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-detail"></i></button>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Kamal Mirzazade</td>
+                                    <td>Iphone XII</td>
+                                    <td>kmirzazade002@gmail.com</td>
+                                    <td><i class="status success-status"></i><span>pending...</span></td>
+                                    <td>
+                                        <div class="op-container">
+                                            <button class="btn-op"><i class="bx bx-message-square-edit"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-trash"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-detail"></i></button>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Rehman Quliyev</td>
+                                    <td>Iphone XI</td>
+                                    <td>rehmanquliyev1997@gmail.com</td>
+                                    <td><i class="status  rejected-status"></i><span>pending...</span></td>
+                                    <td>
+                                        <div class="op-container">
+                                            <button class="btn-op"><i class="bx bx-message-square-edit"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-trash"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-detail"></i></button>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="tdd">
+                                    <td>Resul Tagiyev</td>
+                                    <td>Iphone X</td>
+                                    <td>rasulstagiyev79@gmail.com</td>
+                                    <td><i class="status pending-status"></i><span>pending...</span></td>
+                                    <td>
+                                        <div class="op-container">
+                                            <button class="btn-op"><i class="bx bx-message-square-edit"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-trash"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-detail"></i></button>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Sevil Mirzayeva</td>
+                                    <td>MacBook Pro</td>
+                                    <td>sevilmirzyeva010@gmail.com</td>
+                                    <td><i class="status rejected-status"></i><span>pending...</span></td>
+                                    <td>
+                                        <div class="op-container">
+                                            <button class="btn-op "><i class="bx bx-message-square-edit"></i></button>
+                                            <button class="btn-op trash"><i class="bx bxs-trash"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-detail"></i></button>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Svetlana Mehdiyava</td>
+                                    <td>Samsung A51</td>
+                                    <td>mehdiyavass97@gmail.com</td>
+                                    <td><i class="status success-status"></i><span>pending...</span></td>
+                                    <td>
+                                        <div class="op-container">
+                                            <button class="btn-op"><i class="bx bx-message-square-edit"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-trash"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-detail"></i></button>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Humay Bayramli</td>
+                                    <td>HP Pavilion</td>
+                                    <td>hbayramli2003@gmail.com</td>
+                                    <td><i class="status success-status"></i><span>pending...</span></td>
+                                    <td>
+                                        <div class="op-container">
+                                            <button class="btn-op"><i class="bx bx-message-square-edit"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-trash"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-detail"></i></button>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lala Rahimli</td>
+                                    <td>Lenova Ideapad</td>
+                                    <td>lalarahimli@gmail.com</td>
+                                    <td><i class="status success-status"></i><span>pending...</span></td>
+                                    <td>
+                                        <div class="op-container">
+                                            <button class="btn-op"><i class="bx bx-message-square-edit"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-trash"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-detail"></i></button>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Suleyman Kazimli</td>
+                                    <td>Samsung S20+</td>
+                                    <td>kazimlisuleyman@gmail.com</td>
+                                    <td><i class="status success-status"></i><span>pending...</span></td>
+                                    <td>
+                                        <div class="op-container">
+                                            <button class="btn-op"><i class="bx bx-message-square-edit"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-trash"></i></button>
+                                            <button class="btn-op"><i class="bx bxs-detail"></i></button>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div  class="pop-up">
+                    <div class="pop">
+                        <div class="btn-x-edit">
+                            <h1>Edit Payment Method</h1> <button class="x-btn">X</button>
+                        </div>
+                        <label>
+                            <p>User Name</p>
+                            <input class="my-input-1 input" type="text" placeholder="user name">
+                        </label>
+                        <label>
+                            <p>Order</p>
+                            <input class="my-input-3 input" type="text" placeholder="orders">
+                        </label>
+                        <label>
+                            <p>Email</p>
+                            <input class="my-input-2 input" type="email" placeholder="email">
+                        </label>
+                        <label>
+                            <p>Country</p>
+                            <select class="options">
+                                <option value="germany">Germany</option>
+                                <option value="aze">Azerbaijan</option>
+                                <option value="rus">Russia</option>
+                                <option value="china">China</option>
+                                <option value="georgia">Georgia</option>
+                                <option value="america">America</option>
+                                <option value="turkish">Turkey</option>
+                            </select>
+                        </label>
+                        <div class="display">
+                            <button class="remove"> <i class="bx bxs-trash"></i>Remove</button>
+                            <span>
+                                <button class="cancel">Cancel</button>
+                                <button class="save">Save Changes</button></span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </section>
+
+</body>
+<script src="sweetalert2.all.min.js"></script>
+<script src="./assets/js/functionality.js"></script>
+
+</html>
